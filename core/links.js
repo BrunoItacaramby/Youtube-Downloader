@@ -34,6 +34,9 @@ function verificarAreaDeTransferencia() {
       // Adicione os novos links à matriz acumulativa
       linksAcumulados = linksAcumulados.concat(novosLinks);
       salvarLinks(linksAcumulados);
+      //console.log(linksAcumulados.length)
+      //inksAcumulados.pop
+      //console.log(linksAcumulados.length)
     }
   }
 }

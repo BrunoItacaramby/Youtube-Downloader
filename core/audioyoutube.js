@@ -75,8 +75,10 @@ const downloadAllAudios = async () => {
 
   // Remove as aspas das URLs
   const links = linksWithQuotes.replace(/'/g, '').split('\n'); // Divida o conteúdo em linhas se necessário
-
-  createDirectoryIfNotExists('./Downloaded Audios');
+  if(links.length > 1){
+  links.pop()
+  }
+  createDirectoryIfNotExists('./Downloaded Audios');  
 
   for (let i = 0; i < links.length; i++){
     await downloadYouTubeAudio(links[i], i);
