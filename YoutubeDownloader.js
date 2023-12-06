@@ -10,10 +10,14 @@ class YoutubeDownloader {
     }
 
     static Audio(){
-        downloadAllAudios(youtubeLinks)
+        downloadAllAudios()
+
+        
     }
 }
 
-const youtubeLinks = ['https://www.youtube.com/watch?v=GqR5jLQt4w'];
+//const youtubeLinks = ['https://www.youtube.com/watch?v=GqR5jLQt4wM&pp=ygUPYSBsZWkgZGEgZmF2ZWxh'];
+
+YoutubeDownloader.Audio()
 
 export default YoutubeDownloader
