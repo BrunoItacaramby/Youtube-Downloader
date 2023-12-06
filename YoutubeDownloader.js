@@ -14,6 +14,6 @@ class YoutubeDownloader {
     }
 }
 
-const youtubeLinks = ['https://www.youtube.com/watch?v=GqR5jLQt4wM'];
+const youtubeLinks = ['https://www.youtube.com/watch?v=GqR5jLQt4w'];
 
 export default YoutubeDownloader
