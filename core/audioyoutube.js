@@ -75,9 +75,6 @@ const downloadAllAudios = async () => {
 
   // Remove as aspas das URLs
   const links = linksWithQuotes.replace(/'/g, '').split('\n'); // Divida o conteúdo em linhas se necessário
-  links.pop
-  
-  
 
   createDirectoryIfNotExists('./Downloaded Audios');
 
