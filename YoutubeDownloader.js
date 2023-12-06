@@ -10,5 +10,3 @@ class YoutubeDownloader {
 }
 
 export default YoutubeDownloader
-
-YoutubeDownloader.Collector()
