@@ -15,7 +15,7 @@ function isYouTubeLink(text) {
 // Função para salvar os links em um arquivo
 function salvarLinks(links) {
   const linksFormatados = links.map(link => `'${link}'`);
-  const scriptParaSalvar = `const youtubeLinks = [\n  ${linksFormatados.join(',\n  ')}\n];`;
+  const scriptParaSalvar = `${linksFormatados.join(',\n  ')}\n`;
 
   fs.writeFileSync(arquivoDeLinks, scriptParaSalvar);
   console.log(`Link salvo em ${arquivoDeLinks}`);

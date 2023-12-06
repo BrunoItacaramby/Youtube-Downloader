@@ -72,12 +72,16 @@ const downloadAllAudios = async () => {
   // Lê o conteúdo do arquivo de forma síncrona (pode bloquear o thread principal)
   const linksWithQuotes = fs.readFileSync(filePath, 'utf8');
 
+
   // Remove as aspas das URLs
   const links = linksWithQuotes.replace(/'/g, '').split('\n'); // Divida o conteúdo em linhas se necessário
+  links.pop
+  
+  
 
   createDirectoryIfNotExists('./Downloaded Audios');
 
-  for (let i = 0; i < links.length; i++) {
+  for (let i = 0; i < links.length; i++){
     await downloadYouTubeAudio(links[i], i);
   }
 };
