@@ -1,5 +1,6 @@
 import verificarAreaDeTransferencia from "./core/links.js";
 import downloadAllAudios from "./core/audioyoutube.js";
+import downloadAllVideos from "./core/videoyoutube.js";
 
 class YoutubeDownloader {
 
@@ -11,6 +12,10 @@ class YoutubeDownloader {
 
     static Audio(){
         downloadAllAudios()        
+    }
+
+    static Video(){
+        downloadAllVideos()
     }
 }
 
