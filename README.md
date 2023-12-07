@@ -4,10 +4,10 @@
 
 :mag: [Português](#portugues)
 
+<a id="english"></a>
+
 ## Install
 ```npm install ytdl-max```
-
-<a id="english"></a>
 
 ## Getting Started
 ```
@@ -48,10 +48,10 @@ Used to download ONLY AUDIO in MAXIMUM quality, it will download ONLY the AUDIO 
 Some videos can take up a lot of space on your HD because they are downloaded at the maximum quality available for that video.
 ## _____________________________________________________________________
 
+<a id="portugues"></a>
+
 ## Instalar
 ```npm install ytdl-max```
-
-<a id="portugues"></a>
 
 ## Começando
 ```
