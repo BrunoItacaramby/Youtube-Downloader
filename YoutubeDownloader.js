@@ -1,6 +1,6 @@
 import verificarAreaDeTransferencia from "./core/links.js";
-import downloadAllAudios from "./core/audioyoutube.js";
-import downloadAllVideos from "./core/videoyoutube.js";
+import DownloadAudio from "./core/audioyoutube.js";
+import DownloadVideo from "./core/videoyoutube.js";
 
 class YoutubeDownloader {
 
@@ -11,12 +11,14 @@ class YoutubeDownloader {
     }
 
     static Audio(){
-        downloadAllAudios()        
+        DownloadAudio()        
     }
 
     static Video(){
-        downloadAllVideos()
+        DownloadVideo()
     }
 }
+
+YoutubeDownloader.Video()
 
 export default YoutubeDownloader
