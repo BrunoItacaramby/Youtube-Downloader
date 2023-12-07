@@ -23,7 +23,7 @@ const downloadYouTubeAudio = async (url) => {
     const sanitizedTitle = removeSpecialCharacters(emojiStrip(videoTitle));
     console.log(chalk.yellow(`Baixando áudio: ${videoTitle}`));
 
-    const mp3FilePath = `./Downloaded Audios/${sanitizedTitle}_audio.mp3`;
+    const mp3FilePath = `./Downloaded Audios/${sanitizedTitle}.mp3`;
     if (fs.existsSync(mp3FilePath)) {
       console.error(chalk.red(`Arquivo "${mp3FilePath}" já existe. Pulando.`));
       return;
