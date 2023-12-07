@@ -24,6 +24,4 @@ class YoutubeDownloader {
     }
 }
 
-YoutubeDownloader.LowerQualityVideo()
-
 export default YoutubeDownloader
