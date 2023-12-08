@@ -4,10 +4,9 @@
 
 :mag: [Português](#portugues)
 
+<a id="english"></a>
 ## Install
 ```npm install ytdl-max```
-
-<a id="english"></a>
 
 ## Getting Started
 ```
@@ -52,13 +51,12 @@ YoutubeDownloader.LowerVideoQuality()
 ```
 It works the same as "YoutubeDownloader.Video()", but the downloaded videos will have a lower quality
 
-:warning: The audios will be saved in the "Downloaded Audios" folder
-# _____________________________________________________________________
+:warning: The audios will be saved in the "Downloaded Lower Quality Videos" folder
 
+### __________________________________________________________________________________
+<a id="portugues"></a>
 ## Instalar
 ```npm install ytdl-max```
-
-<a id="portugues"></a>
 
 ## Começando
 ```
