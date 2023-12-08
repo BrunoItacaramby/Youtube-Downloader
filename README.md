@@ -4,10 +4,10 @@
 
 :mag: [Português](#portugues)
 
-<a id="english"></a>
-
 ## Install
 ```npm install ytdl-max```
+
+<a id="english"></a>
 
 ## Getting Started
 ```
@@ -16,6 +16,8 @@ import YoutubeDownloader from 'ytdl-max'
 YoutubeDownloader.Video()
 
 YoutubeDownloader.Audio()
+
+YoutubeDownloader.LowerQualityVideos()
 ```
 ## Usage
 ### YoutubeDownloader.Video()
@@ -24,34 +26,39 @@ YoutubeDownloader.Video()
 ```
 :warning: DOES NOT work with video list links (MIX)
 
-Used to download videos in MAXIMUM quality, it will download videos that were copied and saved in the Links.txt file
+Used to download videos in MAXIMUM quality, after they start playing, just copy the YouTube links and they will be downloaded automatically
 
 :warning: The videos will be saved in the "Downloaded Videos" folder
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/217b8dfe-a65b-4ac2-b219-11afc30a275b)
+:warning: Some videos can take up a lot of space on your HD because they are downloaded at the maximum quality available for that video.
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/6495c548-2a30-457a-9922-efbcc4ac49fa)
+![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/e421523b-feaa-4dfa-95cd-fdbe5de88a90)
+
 ### YoutubeDownloader.Audio()
 ```
 YoutubeDownloader.Audio()
 ```
 :warning: DOES NOT work with video list links (MIX)
 
-Used to download ONLY AUDIO in MAXIMUM quality, it will download ONLY the AUDIO of the videos that were copied and saved in the Links.txt file
+Used to download ONLY AUDIO in MAXIMUM quality, it will download ONLY the AUDIO of the videos, just copy the YouTube links and they will be downloaded automatically
 
-:warning: The videos will be saved in the "Downloaded Audios" folder
+:warning: The audios will be saved in the "Downloaded Audios" folder
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/2dc8f8af-c5a8-497b-b4fa-8572c2c79426)
+![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/24787e61-ad6e-47b0-95cd-09d572df643a)
 
-## ⚠️ Warning
+### YoutubeDownloader.LowerVideoQuality()
+```
+YoutubeDownloader.LowerVideoQuality()
+```
+It works the same as "YoutubeDownloader.Video()", but the downloaded videos will have a lower quality
 
-Some videos can take up a lot of space on your HD because they are downloaded at the maximum quality available for that video.
-## _____________________________________________________________________
-
-<a id="portugues"></a>
+:warning: The audios will be saved in the "Downloaded Audios" folder
+# _____________________________________________________________________
 
 ## Instalar
 ```npm install ytdl-max```
+
+<a id="portugues"></a>
 
 ## Começando
 ```
@@ -60,6 +67,8 @@ import YoutubeDownloader from 'ytdl-max'
 YoutubeDownloader.Video()
 
 YoutubeDownloader.Audio()
+
+YoutubeDownloader.LowerQualityVideos()
 ```
 ## Uso
 ### YoutubeDownloader.Video()
@@ -68,28 +77,30 @@ YoutubeDownloader.Video()
 ```
 :warning: NÃO funciona com links de lista de vídeos (MIX)
 
-Utilizado para baixar vídeos em qualidade MÁXIMA, irá baixar vídeos que foram copiados e salvos no arquivo Links.txt
+Utilizado para baixar vídeos em qualidade MÁXIMA, após a sua execução ser iniciada, bastar ir copiando os links do youtube que eles serão baixados automaticamente
 
 :warning: Os vídeos serão salvos na pasta "Downloaded Videos"
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/217b8dfe-a65b-4ac2-b219-11afc30a275b)
+:warning: Alguns vídeos podem ocupar muito espaço no seu HD porque são baixados na qualidade máxima disponível para aquele vídeo.
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/6495c548-2a30-457a-9922-efbcc4ac49fa)
+![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/e421523b-feaa-4dfa-95cd-fdbe5de88a90)
+
 ### YoutubeDownloader.Audio()
 ```
 YoutubeDownloader.Audio()
 ```
 :warning: NÃO funciona com links de lista de vídeos (MIX)
 
-Utilizado para baixar APENAS ÁUDIO em qualidade MÁXIMA, irá baixar APENAS o ÁUDIO dos vídeos que foram copiados e salvos no arquivo Links.txt
+Utilizado para baixar APENAS ÁUDIO em qualidade MÁXIMA, irá baixar APENAS o ÁUDIO dos vídeos, bastar ir copiando os links do youtube que eles serão baixados automaticamente
 
 :warning: Os audios serão salvos na pasta "Downloaded Audios"
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/2dc8f8af-c5a8-497b-b4fa-8572c2c79426)
+![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/24787e61-ad6e-47b0-95cd-09d572df643a)
 
-![image](https://github.com/BrunoItacaramby/YoutubeLinks/assets/116533235/a9d09088-9115-4e85-bcd7-bd7feda24fdf)
+### YoutubeDownloader.LowerVideoQuality()
+```
+YoutubeDownloader.LowerVideoQuality()
+```
+Funciona igual o "YoutubeDownloader.Video()", porem os videos baixados terão uma qualidade inferior
 
-
-## :warning: Aviso
-
-Alguns vídeos podem ocupar muito espaço no seu HD porque são baixados na qualidade máxima disponível para aquele vídeo.
+:warning: Os videos serão salvos na pasta "Downloaded Lower Quality Videos"

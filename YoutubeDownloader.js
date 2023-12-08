@@ -1,4 +1,3 @@
-import verificarAreaDeTransferencia from "./core/links.js";
 import DownloadAudio from "./core/audioyoutube.js";
 import DownloadVideo from "./core/videoyoutube.js";
 import DownloadLowerQualityVideo from "./core/lowerqualityvideoyoutube.js";

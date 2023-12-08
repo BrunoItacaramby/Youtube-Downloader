@@ -6,6 +6,8 @@ import { exec } from 'child_process';
 import ffmpeg from 'ffmpeg-static';
 import clipboardy from 'clipboardy';
 
+clipboardy.writeSync('')
+
 const removeSpecialCharacters = (str) => {
   return str.replace(/[<>:"/\\|?*]+/g, '');
 };

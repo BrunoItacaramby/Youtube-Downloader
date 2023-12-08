@@ -4,6 +4,8 @@ import chalk from 'chalk';
 import emojiStrip from 'emoji-strip';
 import clipboardy from 'clipboardy';
 
+clipboardy.writeSync('')
+
 const removeSpecialCharacters = (str) => {
   return str.replace(/[<>:"/\\|?*]+/g, '');
 };
