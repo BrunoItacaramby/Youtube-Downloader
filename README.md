@@ -51,7 +51,7 @@ YoutubeDownloader.LowerVideoQuality()
 ```
 It works the same as "YoutubeDownloader.Video()", but the downloaded videos will have a lower quality
 
-:warning: The audios will be saved in the "Downloaded Lower Quality Videos" folder
+:warning: The videos will be saved in the "Downloaded Lower Quality Videos" folder
 
 ### __________________________________________________________________________________
 <a id="portugues"></a>
